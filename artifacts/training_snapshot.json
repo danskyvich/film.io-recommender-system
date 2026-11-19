@@ -1,0 +1,27 @@
+{
+    "version": "v1",
+    "timestamp": "2026-11-18T03:03:25.095433+00:00",
+    "vocabulary_size": 2167,
+    "film_count": 138,
+    "sklearn_version": "1.9.1",
+    "python_ver": "3.12.6",
+    "mean_vote_count": 698.0,
+    "mean_vote_average": 7.351135338345865,
+    "genre_repeat_count": "2",
+    "text_fields": [
+        "overview",
+        "genres",
+        "decade",
+        "origin_country",
+        "language"
+    ],
+    "vectorizer_settings": {
+        "max_features": null,
+        "ngram_range": [
+            1,
+            1
+        ],
+        "stop_words": null
+    },
+    "data_filters": "adult=excluded"
+}

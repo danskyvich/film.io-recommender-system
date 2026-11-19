@@ -8,7 +8,6 @@ __pycache__/
 
 # file directories
 training/
-artifacts/
 
 # Distribution / packaging
 .Python

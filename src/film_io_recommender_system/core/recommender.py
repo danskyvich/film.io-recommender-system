@@ -28,9 +28,12 @@ def generate_recommendations(picked_ids: list[int], limit: int = 10):
     
     if not onboarding_positions: return []
     sliced_corpus = matrix[onboarding_positions]
-    
+
+    # compute similarity scores
     similarity = linear_kernel(sliced_corpus, matrix)
     similarity_mean_scores = similarity.mean(axis=0)
+
+    # blending weights, control how similarity and quality scores influence the final score
     blended_array = 0.85 * similarity_mean_scores + 0.15 * quality_values
     blended_array[onboarding_positions] = -1
 
