@@ -8,6 +8,7 @@ __pycache__/
 
 # file directories
 training/
+artifacts/vectorizer.joblib
 
 # Distribution / packaging
 .Python
