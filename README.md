@@ -1,4 +1,4 @@
-# Film.io's recommender engine
+# film.io's recommender engine
 This repository contains the source code of the recommendation engine for [Film.io](https://github.com/danskyvich/film.io).
 
 Film.io's recommendation engine is a microservice that utilizes a statistical method called **Text Frequency-Inverse Document Frequency (TF-IDF)** to determine the most similar and relatable items based on a set of input (in this case, the films the user picked during onboarding).
